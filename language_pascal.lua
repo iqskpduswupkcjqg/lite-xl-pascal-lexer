@@ -6,7 +6,7 @@ syntax.add {
   files = "%.pas$",
   comment = "//",
   patterns = {
-    { pattern = "//.-\n",                   type = "comment"  },
+    { pattern = "//.*",                     type = "comment"  },
     { pattern = { "%(%*", "%*%)" },         type = "comment"  },
     { pattern = { "{", "}" },               type = "comment"  },
     { pattern = { "'", "'", "\\" },         type = "string"   },
