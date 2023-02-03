@@ -135,7 +135,6 @@ syntax.add {
     ["varargs"] = "keyword",
     ["virtual"] = "keyword",
     ["write"] = "keyword",
-    ["writeln"] = "keyword",
     ["writeonly"] = "keyword",
     ["return"] = "keyword",
     -- types
